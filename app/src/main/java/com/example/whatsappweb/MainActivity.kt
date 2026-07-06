@@ -102,8 +102,11 @@ class MainActivity : AppCompatActivity() {
         settings.domStorageEnabled = true // ضروري: هنا تُحفظ جلسة الدخول
         settings.databaseEnabled = true
         settings.userAgentString = DESKTOP_USER_AGENT
-        settings.loadWithOverviewMode = true
-        settings.useWideViewPort = true
+        // مهم: نخلي WebView "يحس" إنه بعرض شاشة الجوال الحقيقي (مو عرض
+        // شاشة حاسوب مصغّر) — واتساب ويب نفسه فيه تصميم متجاوب (responsive)
+        // يتأقلم مع العرض الفعلي، بغض النظر عن الـ User-Agent المرسل
+        settings.loadWithOverviewMode = false
+        settings.useWideViewPort = false
         settings.setSupportZoom(true)
         settings.builtInZoomControls = true
         settings.displayZoomControls = false
