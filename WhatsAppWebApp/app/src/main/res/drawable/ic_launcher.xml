@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- خلفية داكنة -->
+    <path
+        android:fillColor="#075E54"
+        android:pathData="M0,0h108v108h-108z" />
+
+    <!-- فقاعة محادثة خضراء -->
+    <path
+        android:fillColor="#25D366"
+        android:pathData="M54,24c-16.5,0 -30,12 -30,27c0,7.4 3.2,14.1 8.5,19.1L28,86l17.5,-7.8c2.7,0.7 5.6,1.1 8.5,1.1c16.5,0 30,-12 30,-27S70.5,24 54,24z" />
+
+    <!-- ثلاث نقاط بيضاء تمثل الكتابة -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,51 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0 z M50,51 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0 z M62,51 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0 z" />
+
+</vector>
